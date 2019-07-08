@@ -1,0 +1,38 @@
+.Gui {
+  border: solid;
+  border-color: black;
+  width: 360px;
+  height: 450px;
+  display: block;
+  margin: auto;
+  background-color: grey;
+}
+
+input {
+  width: 356px;
+  height: 100px;
+  font-size: 50px;
+}
+
+.Buttons-clear-row {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.Buttons-top-row {
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+.Buttons-middle-row {
+  padding-top: 10px;
+}
+
+.Buttons-bottom-row {
+  padding-top: 10px;
+}
+
+Button {
+  padding: 25px;
+}
+/*# sourceMappingURL=stylesheet.css.map */
