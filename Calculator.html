@@ -11,36 +11,38 @@
     <body>
         <div class= "Gui"> 
             <div class="Text">
-                <input type="Text" >
+                <input id="TextField"   type="Text" value= "">
+                
             </div>
                 <div class="Button-container">
                     <div class = "Buttons-clear-row" > 
-                            <button type="button">ON </button>
-                            <button type="button">C</button>
-                            <button type="button"> Clear</button>
+                            <button type="button" onclick="ButtonON()">ON </button>
+                            <button type="button" onclick="Buttonc()">C</button>
+                            <button type="button" onclick="Buttonclear()"> Clear</button>
                         <div>
                     <div class = "Buttons-top-row" > 
-                        <button type="button">9 </button>
-                        <button type="button">8</button>
-                        <button type="button">7 </button>
-                        <button type="button">+ </button>
+                        <button type="button" onclick="Button9()">9 </button>
+                        <button type="button"onclick="Button8()">8</button>
+                        <button type="button"onclick="Button7()">7 </button>
+                        <button type="button"onclick="Buttonplus()">+ </button>
                     <div>
                     <div class = "Buttons-middle-row" ></div>
-                        <button type="button">6 </button>
-                        <button type="button">5 </button>
-                        <button type="button">4 </button>
-                        <button type="button"> -</button>
+                        <button type="button"onclick="Button6()">6 </button>
+                        <button type="button"onclick="Button5()">5 </button>
+                        <button type="button"onclick="Button4()">4 </button>
+                        <button type="button"onclick="Buttonminus()"> -</button>
                     </div>
                     <div class = "Buttons-bottom-row" >
-                        <button type="button">3 </button>
-                        <button type="button">2 </button>
-                        <button type="button">1 </button>
-                        <button type="button">= </button>
+                        <button type="button"onclick="Button3()">3 </button>
+                        <button type="button"onclick="Button2()">2 </button>
+                        <button type="button"onclick="Button1()">1 </button>
+                        <button type="button"onclick="Buttonequals()">= </button>
                     </div>
                 </div>
             
         </div>
         
-        <script src="" async defer></script>
+        <script src="script.js" async defer>
+         </script>
     </body>
 </html>
