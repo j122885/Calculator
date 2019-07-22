@@ -11,33 +11,35 @@
     <body>
         <div class= "Gui"> 
             <div class="Text">
-                <input id="TextField"   type="Text" value= "">
+                <input id="TextField"   type="text" value= ""   >
                 
             </div>
                 <div class="Button-container">
-                    <div class = "Buttons-clear-row" > 
-                            <button type="button" onclick="ButtonON()">ON </button>
-                            <button type="button" onclick="Buttonc()">C</button>
-                            <button type="button" onclick="Buttonclear()"> Clear</button>
-                        <div>
-                    <div class = "Buttons-top-row" > 
-                        <button type="button" onclick="Button9()">9 </button>
-                        <button type="button"onclick="Button8()">8</button>
-                        <button type="button"onclick="Button7()">7 </button>
-                        <button type="button"onclick="Buttonplus()">+ </button>
-                    <div>
-                    <div class = "Buttons-middle-row" ></div>
-                        <button type="button"onclick="Button6()">6 </button>
-                        <button type="button"onclick="Button5()">5 </button>
-                        <button type="button"onclick="Button4()">4 </button>
-                        <button type="button"onclick="Buttonminus()"> -</button>
-                    </div>
-                    <div class = "Buttons-bottom-row" >
-                        <button type="button"onclick="Button3()">3 </button>
-                        <button type="button"onclick="Button2()">2 </button>
-                        <button type="button"onclick="Button1()">1 </button>
-                        <button type="button"onclick="Buttonequals()">= </button>
-                    </div>
+                    <table>
+                            <tr class = "Buttons-clear-row" > 
+                                    <td><button type="button" onclick="ButtonON()" style="width: 60px">ON </button></td>     
+                                    <td><button type="button" onclick="Buttonc()">C</button> </td>    
+                                    <td> <button type="button" onclick="Buttonclear()" style="width: 60px"> Clear</button></td>    
+                            </tr>  
+                    <tr class = "Buttons-top-row" > 
+                       <td> <button type="button" onclick="Button9()">9 </button> </td>
+                       <td>  <button type="button"onclick="Button8()">8</button>  </td>
+                       <td> <button type="button"onclick="Button7()">7 </button>  </td> 
+                       <td>  <button type="button"onclick="Buttonplus()">+ </button>  </td> 
+                    </tr>
+                    <tr class = "Buttons-middle-row" >
+                       <td> <button type="button"onclick="Button6()">6 </button> </td>
+                        <td> <button type="button"onclick="Button5()">5 </button> </td>
+                        <td> <button type="button"onclick="Button4()">4 </button> </td>
+                        <td> <button type="button"onclick="Buttonminus()"> -</button> </td>
+                    </tr>
+                    <tr class = "Buttons-bottom-row" >
+                      <td><button type="button"onclick="Button3()">3 </button></td>  
+                      <td><button type="button"onclick="Button2()">2 </button></td> 
+                      <td><button type="button"onclick="Button1()">1 </button></td> 
+                      <td><button type="button"onclick="Buttonequals()">= </button></td>
+                    </tr>
+                    </table>
                 </div>
             
         </div>

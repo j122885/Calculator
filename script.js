@@ -11,8 +11,10 @@ function Buttonclear() {
 }
 
 function Button9() {
-    
-    document.getElementById("TextField").value = "9" ;
+   
+   document.getElementById("TextField").value = "9" ;
+   
+   
 }
 
 function Button8() {
@@ -48,7 +50,10 @@ function Button1() {
     document.getElementById("TextField").value = "1";
 }
 function Buttonplus() {
-    document.getElementById("TextField").value = "9"; /* Fix this button does addition */
+    var a = "TextField";
+    var b = "TextField";
+    var z = a + b;
+    document.getElementById("TextField").value = SVGNumber ; /* Fix this button does addition */
 
 }
 function Button9minus() {
